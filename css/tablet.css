@@ -1,0 +1,134 @@
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+
+    /* ==============================HERO============================ */
+
+    .address-list {
+
+        flex-direction: column;
+        row-gap: 12px;
+
+    }
+
+    .address-list .link {
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+    }
+
+    .header-icon-menu {
+        display: none;
+    }
+
+    /* ====================HERO====================================== */
+
+    .button {
+        margin-top: 36px;
+    }
+
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/people-office-tablet.jpg);
+        padding-top: 112px;
+        padding-bottom: 112px;
+    }
+
+    @media (min-resolution: 192dpi) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images-2x/people-office-tablet-2x.jpg);
+        }
+    }
+
+
+
+    /* =============-2 section-================== */
+    .section-feature {
+
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+
+    .container-feature {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 72px;
+        column-gap: 24px;
+        justify-content: center;
+
+    }
+
+    .li-feature {
+        width: calc((100% - 24px) / 2);
+        width: 356px;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .title-three-feature {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+    }
+
+    /* ==========================3 section-----Team=============================== */
+
+    .section-team {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+
+    .container-team-ul {
+        flex-wrap: wrap;
+        row-gap: 64px;
+        column-gap: 24px;
+        justify-content: center;
+    }
+
+
+    /* -------------------------4 section------------- */
+    .section-portfolio {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .container-portfolio-ul {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 72px;
+        column-gap: 24px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .port-li {
+        width: 356px;
+    }
+
+
+    /* ----------------Footer------------------------- */
+
+    .container-footer {
+        flex-wrap: wrap;
+        max-width: 550px;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+
+    .fofo {
+        margin-right: 0;
+    }
+
+    .label-div {
+        margin-left: 0;
+    }
+
+    /* =============mOBILE=================== */
+
+    .menu-container {
+        display: none;
+    }
+}
